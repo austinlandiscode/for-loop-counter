@@ -1,0 +1,29 @@
+Take two numbers:
+1. One to count
+2. One to determine what multiple to use to get there
+
+
+Here is some sample input:
+Count to: 30
+Count by: 5
+Output: 5, 10, 15, 20, 25, 30
+
+Count to: 50
+Count by: 7
+Output: 7, 14, 21, 28, 35, 42, 49
+
+Don't forget to consider how to handle any input that might be submitted:
+
+Empty values (user just presses enter)
+Non-numeric values (It may be helpful to read up about the numerical value, NaN)
+Negative numbers
+Count by number is larger than the count to numbers
+
+// Pseudocode alert!
+
+for (let index = 0; index < array.length; index ++) {
+  // Code that should run each time through the loop!
+}
+
+take number 1 and make that the END of the loop (where the loop should stop)
+take number 2 and make that the INCREMENT in which the loop will increase by
