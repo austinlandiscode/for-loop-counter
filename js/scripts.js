@@ -1,16 +1,20 @@
 $(document).ready(function(){
   $("form.form-one").submit(function(){
     event.preventDefault();
-    let incrementNum = parseInt($('input#incrementNum').val());
-    let maxNum = parseInt($('input#maxNum').val());
-    let startingArray = [incrementNum, maxNum]
+
+    let incrementNum = parseInt($("input#incrementNum").val());
+    let maxNum = parseInt($("input#maxNum").val());
+
     let capturedArray = [];
-for (let index = incrementNum; index <= maxNum; index += incrementNum) {
-  capturedArray.push(array[index]);
-  // Code that should run each time through the loop!
-}
+    console.log(incrementNum);
+    console.log(maxNum);
 
 
+    for (let index = incrementNum; index <= maxNum; index += incrementNum) {
+      capturedArray.push(index);
+    }
+
+console.log(capturedArray);
 
   });
 });
