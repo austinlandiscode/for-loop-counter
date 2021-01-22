@@ -1,6 +1,6 @@
 # _Count Up By_
 
-#### _A webpage that contains a collection of my current works_
+#### _An application that utilizes for loops._
 
 #### By _**Mekinsie Callahan** and **Austin Landis**_
 
